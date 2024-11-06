@@ -140,7 +140,14 @@ def initChannels():
         ]
 
         # P2 channels below:
-
+        culinary_posts = Group.query.filter_by(_name='Culinary Posts').first()
+        create_and_compete_channels = [
+            Channel(name='', group_id=culinary_posts.id),
+            Channel(name='', group_id=culinary_posts.id),
+            Channel(name='', group_id=culinary_posts.id),
+            Channel(name='', group_id=culinary_posts.id),
+            Channel(name='', group_id=culinary_posts.id),
+        ]
         # P3 channels below:
         
         # Vote for the GOAT channels below:
