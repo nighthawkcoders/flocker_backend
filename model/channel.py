@@ -187,6 +187,7 @@ def initChannels():
         create_and_compete_channels = [
             Channel(name='Recipes', group_id=culinary_posts.id),
             Channel(name='Ingredients', group_id=culinary_posts.id),
+            
         ]
         # P3 channels below:
         
